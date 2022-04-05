@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвентер</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="wrapper" onload="saveData()">
+    <div id="form" class="form">
+        <select id="changeСurrency" class="changeСurrency">
+            <option value="0" disabled selected>Выберите валюту</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EU</option>
+            <option value="RUB">RUB</option>
+        </select>
+        <select id="changeTime" class="changeTime">
+            <option value="0" disabled selected>Выберите период</option>
+            <option value="Past">2016</option>
+            <option value="Now">2022</option>
+        </select>
+        <input type="text" id="inputValue" class="value">
+        <input type="text" id="outputValue" class="value" disabled placeholder="BYN">
+        <button id="action" class="action">Посчитать</button>
+    </div>
+    <button id="theme" class="theme"></button>
+    <script src="logic.js"></script>
+</body>
+</html>

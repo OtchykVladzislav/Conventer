@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: black;
+}
+
+.changeСurrency, .changeTime{
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.value{
+    text-align: center;
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    outline: auto;
+}
+
+.action{
+    font-size: 20px;
+    width: 680px;
+    margin: 5px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.theme{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.wrapper.dark{
+    background-color: black;
+}
+
+.form.dark{
+    background-color: white;
+}
+
+.changeСurrency.dark{
+    background-color: black;
+    color: white;
+}
+
+.changeTime.dark{
+    background-color: black;
+    color: white;
+}
+
+.value.dark{
+    background-color: black;
+    color: white;
+}
+
+.action.dark{
+    background-color: black;
+    color: white;
+}
+
+.theme.dark{
+    background-color: white;
+}
